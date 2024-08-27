@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background: #fff url(img/top.png) no-repeat 50% 100% / contain;
+    min-height: 100vh;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    width: 100%;
+    padding: 2rem 9%;
+    background: rgba(0, 0, 0, 0.8);
+    backgroud-filter: blur(10px);
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    text-decoration: none;
+}
+.logo{
+    font-size: 35px;
+    color: violet;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: default;
+}
+span{
+    color: violet;
+}
+.logo:hover{
+    color: violet;
+    text-shadow: 0 0 25px violet,
+                0 0 50ox violet;
+    transform: scale(1.1);
+}
+.navbar a{
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px;
+
+}
+.navbar a:hover{
+        color: violet;
+}
+.contact{
+    padding: 10px 28px;
+    background-color: white;
+    color: black;
+    border-radius: none;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.contact:hover{
+    background-color: violet;
+}
+
+.education-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.education-item {
+    text-align: center;
+}
+
+.education-item img {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.education-item img:hover{
+    border: 1px solid black;
+  transform: scale(1.05);
+  box-shadow: 0 15px 15px rgba(162, 9, 110, 0.6);
+}
+.label {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #333;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
